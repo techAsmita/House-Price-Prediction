@@ -65,26 +65,20 @@ The target variable is:
   - ✅ `Mean Squared Error (MSE)`
 
 **📌 R² Score Obtained:** `0.622`  
-This is a good score and falls within the **expected range of 0.50 – 0.75** for Linear Regression on this dataset.
+This falls within the **expected range of 0.50 – 0.75** for Linear Regression on this dataset.
 
 ### 7. **Visualization**
 - Plotted a **scatter plot** of **actual vs predicted prices**
 - Included a red reference line for perfect prediction
+- Run the notebook to generate the plot
 
 ---
-
-## 📈 Output Graph (Actual vs Predicted Prices)
-
-The following graph shows how close the model's predictions were to actual house prices:
-
-![Actual vs Predicted Plot]  
-
 
 ## ✅ Conclusion
 
 - Successfully built and evaluated a regression model for predicting house prices.
 - Model shows decent performance (R² = 0.622) using a basic Linear Regression algorithm.
-- The project can be improved further by using more advanced models like Random Forest or XGBoost.
+- Can be improved further by using more advanced models like Random Forest or XGBoost.
 
 ---
 
@@ -94,6 +88,26 @@ The following graph shows how close the model's predictions were to actual house
 |------|-------------|
 | `House_Price_Prediction.ipynb` | Main notebook with code |
 | `README.md` | Project documentation |
+
+---
+
+## 🛠️ How to Run
+
+```bash
+# Open in Google Colab or Jupyter
+# No external dataset download needed — uses sklearn's built-in dataset
+
+pip install scikit-learn pandas numpy seaborn matplotlib
+```
+
+---
+
+## 🔮 Future Scope
+
+- Try advanced models: Random Forest, XGBoost, Gradient Boosting
+- Add feature engineering and scaling (`StandardScaler`)
+- Hyperparameter tuning with `GridSearchCV`
+- Deploy as a web app using Streamlit or Flask
 
 ---
 
