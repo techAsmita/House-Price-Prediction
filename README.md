@@ -96,3 +96,9 @@ The following graph shows how close the model's predictions were to actual house
 | `README.md` | Project documentation |
 
 ---
+
+## 👩‍💻 Author
+
+**Asmita** — [@techAsmita](https://github.com/techAsmita)  
+B.E. Computer Engineering | AI/ML Enthusiast  
+[LinkedIn](https://linkedin.com/in/techasmita)
